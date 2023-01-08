@@ -23,7 +23,7 @@ console.log(userData);
 
 function onFormSubmit(e) {
   e.preventDefault();
-//   console.log(userData);
+  console.log(userData);
   e.currentTarget.reset();
   localStorage.removeItem(FEEDBACK_KEY);
 }
